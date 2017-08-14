@@ -1304,7 +1304,7 @@ public final class Pivot_jsp extends org.apache.jasper.runtime.HttpJspBase {
           out.write( "    function handle_puc_save(path, name, overwrite) {\n" );
           out.write( "        var r = controller.saveAs(name, name, \"\", path, overwrite);\n" );
           out.write( "        if(r) {\n" );
-          out.write( "            return \"/\" + \"\" + \"/\" + path + \"/\" + name + \".xaction\"\n" );
+          out.write( "            return \"/\" + \"\" + \"/\" + path + \"/\" + name + \".xaction\";\n" );
           out.write( "        }\n" );
           out.write( "    }\n" );
           out.write( "    var gCtrlr = {};\n" );
